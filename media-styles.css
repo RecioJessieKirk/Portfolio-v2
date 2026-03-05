@@ -2,8 +2,15 @@
   .inner-about-grid {
     grid-template-columns: 1fr;
   }
-}
 
+  .inner-image-grid {
+    margin: 0 auto;
+  }
+  .content {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
 @media (min-width: 600px) {
   .root {
     width: 100%;
@@ -25,5 +32,8 @@
 @media (max-width: 768px) {
   .sideStyle {
     display: none;
+  }
+  .paragraph-wrapper p {
+    max-width: 100%;
   }
 }
