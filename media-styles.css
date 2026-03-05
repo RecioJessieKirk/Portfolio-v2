@@ -1,0 +1,29 @@
+@media (max-width: 996px) {
+  .inner-about-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 600px) {
+  .root {
+    width: 100%;
+  }
+}
+
+@media (max-width: 601px) {
+  .o {
+    width: 100%;
+  }
+}
+
+@media (max-width: 720px) {
+  .o {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .sideStyle {
+    display: none;
+  }
+}
